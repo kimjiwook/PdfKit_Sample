@@ -14,6 +14,7 @@
 		A3ACE6832137D4BE0073B2E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3ACE6812137D4BE0073B2E4 /* LaunchScreen.storyboard */; };
 		A3ACE68E2137D4BE0073B2E4 /* PDFKitSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ACE68D2137D4BE0073B2E4 /* PDFKitSampleTests.swift */; };
 		A3ACE6992137D4BE0073B2E4 /* PDFKitSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ACE6982137D4BE0073B2E4 /* PDFKitSampleUITests.swift */; };
+		A3ACE6A72137D5230073B2E4 /* genesis-catalogue.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A3ACE6A62137D5230073B2E4 /* genesis-catalogue.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A3ACE6942137D4BE0073B2E4 /* PDFKitSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFKitSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3ACE6982137D4BE0073B2E4 /* PDFKitSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitSampleUITests.swift; sourceTree = "<group>"; };
 		A3ACE69A2137D4BE0073B2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3ACE6A62137D5230073B2E4 /* genesis-catalogue.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "genesis-catalogue.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				A3ACE6782137D4BD0073B2E4 /* AppDelegate.swift */,
 				A3ACE67A2137D4BD0073B2E4 /* ViewController.swift */,
+				A3ACE6A62137D5230073B2E4 /* genesis-catalogue.pdf */,
 				A3ACE67C2137D4BD0073B2E4 /* Main.storyboard */,
 				A3ACE67F2137D4BE0073B2E4 /* Assets.xcassets */,
 				A3ACE6812137D4BE0073B2E4 /* LaunchScreen.storyboard */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3ACE6832137D4BE0073B2E4 /* LaunchScreen.storyboard in Resources */,
+				A3ACE6A72137D5230073B2E4 /* genesis-catalogue.pdf in Resources */,
 				A3ACE6802137D4BE0073B2E4 /* Assets.xcassets in Resources */,
 				A3ACE67E2137D4BD0073B2E4 /* Main.storyboard in Resources */,
 			);
@@ -431,12 +435,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BR6U9G47ZR;
 				INFOPLIST_FILE = PDFKitSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.douzone.test.PDFKitSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.douzone.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,12 +453,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BR6U9G47ZR;
 				INFOPLIST_FILE = PDFKitSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.douzone.test.PDFKitSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.douzone.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
