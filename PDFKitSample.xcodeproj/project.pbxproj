@@ -15,6 +15,8 @@
 		A3ACE68E2137D4BE0073B2E4 /* PDFKitSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ACE68D2137D4BE0073B2E4 /* PDFKitSampleTests.swift */; };
 		A3ACE6992137D4BE0073B2E4 /* PDFKitSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ACE6982137D4BE0073B2E4 /* PDFKitSampleUITests.swift */; };
 		A3ACE6A72137D5230073B2E4 /* genesis-catalogue.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A3ACE6A62137D5230073B2E4 /* genesis-catalogue.pdf */; };
+		A3F2A8AB2137E8DE00173491 /* ThumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F2A8A92137E8DE00173491 /* ThumCell.swift */; };
+		A3F2A8AC2137E8DE00173491 /* ThumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3F2A8AA2137E8DE00173491 /* ThumCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A3ACE6982137D4BE0073B2E4 /* PDFKitSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitSampleUITests.swift; sourceTree = "<group>"; };
 		A3ACE69A2137D4BE0073B2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3ACE6A62137D5230073B2E4 /* genesis-catalogue.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "genesis-catalogue.pdf"; sourceTree = "<group>"; };
+		A3F2A8A92137E8DE00173491 /* ThumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumCell.swift; sourceTree = "<group>"; };
+		A3F2A8AA2137E8DE00173491 /* ThumCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThumCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				A3ACE6782137D4BD0073B2E4 /* AppDelegate.swift */,
 				A3ACE67A2137D4BD0073B2E4 /* ViewController.swift */,
-				A3ACE6A62137D5230073B2E4 /* genesis-catalogue.pdf */,
+				A3F2A8A92137E8DE00173491 /* ThumCell.swift */,
+				A3F2A8AA2137E8DE00173491 /* ThumCell.xib */,
 				A3ACE67C2137D4BD0073B2E4 /* Main.storyboard */,
 				A3ACE67F2137D4BE0073B2E4 /* Assets.xcassets */,
 				A3ACE6812137D4BE0073B2E4 /* LaunchScreen.storyboard */,
 				A3ACE6842137D4BE0073B2E4 /* Info.plist */,
+				A3ACE6A62137D5230073B2E4 /* genesis-catalogue.pdf */,
 			);
 			path = PDFKitSample;
 			sourceTree = "<group>";
@@ -236,6 +242,7 @@
 				A3ACE6A72137D5230073B2E4 /* genesis-catalogue.pdf in Resources */,
 				A3ACE6802137D4BE0073B2E4 /* Assets.xcassets in Resources */,
 				A3ACE67E2137D4BD0073B2E4 /* Main.storyboard in Resources */,
+				A3F2A8AC2137E8DE00173491 /* ThumCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F2A8AB2137E8DE00173491 /* ThumCell.swift in Sources */,
 				A3ACE67B2137D4BD0073B2E4 /* ViewController.swift in Sources */,
 				A3ACE6792137D4BD0073B2E4 /* AppDelegate.swift in Sources */,
 			);
