@@ -10,6 +10,9 @@ import UIKit
 
 class ThumCell: UITableViewCell {
 
+    @IBOutlet open weak var imgThum: UIImageView!
+    @IBOutlet weak var title: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
